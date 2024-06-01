@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/num/style.css">
+    <link rel="icon" type="image/x-icon" href="/num/favicon.svg">
+    <title>Number Guessing Game</title>
+</head>
+<body>
+    <h1>Number Guessing Game</h1>
+    <div id="backdrop">
+        <div id="game">
+            <h2>Guess a number between 1 and 100!</h3>
+            <div id="response">Higher/Lower</div>
+            <input type="number" value="1" min="1" max="100" id="num">
+            <button onclick="guess()">Submit</button>
+            <div id="count">7 Guesses</div>
+        </div>
+    </div>
+    <div id="footer">
+        <label>Made with little to no <span style="color: #e0474c;">♥</span> by <span style="font-weight: bold;">alxu31</span>.</label><br>
+        <a href="https://github.com/alxu31/games"><img src="/icons/github.png" height="20px"></a>
+        <a href="https://alxu31.github.io/games/"><img src="/icons/home.png" height="20px"></a>
+    </div>
+    <script src="/num/script.js"></script>
+</body>
+</html>

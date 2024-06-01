@@ -1,0 +1,77 @@
+html {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: lightblue;
+    height: 100vh;
+    overflow: hidden;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5rem;
+    margin-top: 10px;
+    margin-bottom: 14px;
+}
+
+#backdrop {
+    display: block;
+    background: url("/backgrounds/blue2.jpg");
+    border: 6px solid black;
+    width: 100%;
+    height: 80%;
+}
+
+#flash {
+    margin: 30px;
+    width: 400px;
+    height: 80px;
+    border-radius: 10px;
+    background: white;
+    border: 7px dashed black;
+    box-sizing: content-box;
+}
+
+#display {
+    margin: 30px;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+button {
+    margin: 30px;
+    border: 5px solid black;
+    border-radius: 20px;
+    height: 100px;
+    width: 500px;
+    color: black;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+#start {
+    background: lightgreen;
+}
+
+#stop {
+    background: #FFCCCB;
+}
+
+#footer {
+    margin-top: 6px;
+}
+
+a {
+    padding: 0 1px 0 1px;
+}
+

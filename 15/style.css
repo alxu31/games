@@ -1,0 +1,66 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100vh;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5rem;
+    margin-top: 10px;
+    margin-bottom: 14px;
+}
+
+#backdrop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("/backgrounds/stars.jpg");
+    border: 6px solid black;
+    height: 80%;
+}
+
+#puzzle {
+    width: 400px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(4,100px);
+    background-color: transparent;
+}
+
+button {
+    user-select: none;
+    background-color: hsl(57 92 90);
+    font-size: 1.5rem;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+#b16 {
+    background: rgb(251 209 162 / 80%);
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+/* Only legal moves change color on hover*/
+.leg button:hover {
+    background: hsl(37 92 82);
+}
+
+#footer {
+    margin-top: 6px;
+}
+
+a {
+    padding: 0 1px 0 1px;
+}

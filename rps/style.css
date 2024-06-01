@@ -1,0 +1,59 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    background: white;
+    height: 100vh;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5rem;
+    margin-top: 10px;
+    margin-bottom: 14px;
+}
+
+#backdrop {
+    display: block;
+    background: url("bg2.png");
+    border: 6px solid black;
+    height: 80%;
+}
+
+button {
+    background: lightgreen;
+    font-size: 3rem;
+    height: 100px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+
+.results {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.results div {
+    margin: 15px;
+}
+
+#footer {
+    margin-top: 6px;
+}
+
+#player, #computer, #winner {
+    margin: 40px;
+}
+
+a {
+    padding: 0 1px 0 1px;
+}
