@@ -22,7 +22,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url("/backgrounds/stars.jpg");
+    background: url("/games/backgrounds/stars.jpg");
     border: 6px solid black;
     height: 80%;
 }
