@@ -1,4 +1,5 @@
 **Some Basic Games I Made Using JS**<br>
+(Will add more games as i make them) <br>
 _I'm still learning js don't judge ;-;... literally like my first week_ <br>
 Note: Some of this code is extremely inefficient; I am aware but my js just isn't advanced enough yet (slowly improving tho) <br>
 
