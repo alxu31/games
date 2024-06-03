@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/word/style.css">
+    <link rel="icon" type="image/x-icon" href="/word/favicon.svg">
+    <title>Unscramble The Word</title>
+</head>
+<body>
+    <h1>Unscramble The Word</h1>
+    <div id="backdrop">
+        <div id="game">
+            <h2 id="word">Word</h3>
+            <div id="hints">Hint >.<</div>
+            <input type="text" id="guess" autocomplete="off">
+            <button onclick="newWord()">New</button>
+            <button onclick="hint()">Hint</button>
+            <button onclick="checkWord()">Check</button>
+        </div>
+    </div>
+    <div id="footer">
+        <label>Made with little to no <span style="color: #e0474c;">♥</span> by <span style="font-weight: bold;">alxu31</span>.</label><br>
+        <a href="https://github.com/alxu31/games"><img src="/games/icons/github.png" height="20px"></a>
+        <a href="https://alxu31.github.io/games/"><img src="/games/icons/home.png" height="20px"></a>
+    </div>
+    <script src="/word/script.js"></script>
+</body>
+</html>
