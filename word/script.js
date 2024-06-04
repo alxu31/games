@@ -106,7 +106,7 @@ function hint() {
     // Give the next letter to the word
     let temp = [];
     let randSplit = rand.split("")
-    if (hintNum > randSplit.length) {
+    if (hintNum >= randSplit.length) {
         // If already give the whole word
         console.log('i already gave you the whole word...');
     }
@@ -129,7 +129,7 @@ function checkWord() {
     if (guess.length === rand.length) {
         if (guess === rand) {
             console.log('correct');
-            window.alert(`${rand} is correct! Took you ${hintNum - 1} hints and ${checks} checks.`);
+            window.alert(`${rand} is correct! Took you ${hintNum} hints and ${checks} checks.`);
             newWord();
             document.getElementById('guess').value = "";
         }
