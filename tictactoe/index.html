@@ -5,10 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TicTacToe</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="/tictactoe/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="favicon.svg">
 </head>
 <body>
-    
+    <h1>TicTacToe</h1>
+    <div id="backdrop">
+        <center><div id="puzzle">
+            <div id="s1"><button id="b1" onclick="moveTile('b1')">1</button></div>
+            <div id="s2"><button id="b2" onclick="moveTile('b2')">2</button></div>
+            <div id="s3"><button id="b3" onclick="moveTile('b3')">3</button></div>
+            <div id="s4"><button id="b4" onclick="moveTile('b4')">4</button></div>
+            <div id="s5"><button id="b5" onclick="moveTile('b5')">5</button></div>
+            <div id="s6"><button id="b6" onclick="moveTile('b6')">6</button></div>
+            <div id="s7"><button id="b7" onclick="moveTile('b7')">7</button></div>
+            <div id="s8"><button id="b8" onclick="moveTile('b8')">8</button></div>
+            <div id="s9"><button id="b9" onclick="moveTile('b9')">9</button></div>
+        </div></center>
+    </div>
+    <div id="footer">
+        <label>Made with little to no <span style="color: #e0474c;">♥</span> by <span style="font-weight: bold;">alxu31</span>.</label><br>
+        <a href="https://github.com/alxu31/games"><img src="/games/icons/github.png" height="20px"></a>
+        <a href="https://alxu31.github.io/games/"><img src="/games/icons/home.png" height="20px"></a>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>

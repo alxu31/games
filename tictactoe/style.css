@@ -1,0 +1,45 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100vh;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5rem;
+    margin-top: 10px;
+    margin-bottom: 14px;
+}
+
+#backdrop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("/games/backgrounds/stars.jpg");
+    border: 6px solid black;
+    height: 80%;
+}
+
+#puzzle {
+    width: 375px;
+    height: 375px;
+    display: grid;
+    grid-template-columns: repeat(3, 125px);
+    grid-template-rows: repeat(3, 125px);
+    background-color: transparent;
+}
+
+#footer {
+    margin-top: 6px;
+}
+
+a {
+    padding: 0 1px 0 1px;
+}
